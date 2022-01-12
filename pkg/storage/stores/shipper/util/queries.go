@@ -5,9 +5,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	chunk_util "github.com/grafana/loki/pkg/storage/chunk/util"
-	util_math "github.com/grafana/loki/pkg/util/math"
+	"github.com/grafana/loki/v2/pkg/storage/chunk"
+	chunk_util "github.com/grafana/loki/v2/pkg/storage/chunk/util"
+	util_math "github.com/grafana/loki/v2/pkg/util/math"
 )
 
 const maxQueriesPerGoroutine = 100

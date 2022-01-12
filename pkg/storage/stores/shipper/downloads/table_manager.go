@@ -15,9 +15,9 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	chunk_util "github.com/grafana/loki/pkg/storage/chunk/util"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/util"
+	"github.com/grafana/loki/v2/pkg/storage/chunk"
+	chunk_util "github.com/grafana/loki/v2/pkg/storage/chunk/util"
+	"github.com/grafana/loki/v2/pkg/storage/stores/shipper/util"
 )
 
 const (

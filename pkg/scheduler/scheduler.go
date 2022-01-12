@@ -30,15 +30,15 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/grpc"
 
-	"github.com/grafana/loki/pkg/scheduler/queue"
-	"github.com/grafana/loki/pkg/scheduler/schedulerpb"
+	"github.com/grafana/loki/v2/pkg/scheduler/queue"
+	"github.com/grafana/loki/v2/pkg/scheduler/schedulerpb"
 
-	"github.com/grafana/loki/pkg/tenant"
+	"github.com/grafana/loki/v2/pkg/tenant"
 
-	"github.com/grafana/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
-	lokiutil "github.com/grafana/loki/pkg/util"
-	lokigrpc "github.com/grafana/loki/pkg/util/httpgrpc"
-	lokihttpreq "github.com/grafana/loki/pkg/util/httpreq"
+	"github.com/grafana/loki/v2/pkg/lokifrontend/frontend/v2/frontendv2pb"
+	lokiutil "github.com/grafana/loki/v2/pkg/util"
+	lokigrpc "github.com/grafana/loki/v2/pkg/util/httpgrpc"
+	lokihttpreq "github.com/grafana/loki/v2/pkg/util/httpreq"
 )
 
 var errSchedulerIsNotRunning = errors.New("scheduler is not running")

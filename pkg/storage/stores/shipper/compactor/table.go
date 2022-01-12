@@ -19,10 +19,10 @@ import (
 	"github.com/prometheus/common/model"
 	"go.etcd.io/bbolt"
 
-	chunk_util "github.com/grafana/loki/pkg/storage/chunk/util"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/compactor/retention"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
-	shipper_util "github.com/grafana/loki/pkg/storage/stores/shipper/util"
+	chunk_util "github.com/grafana/loki/v2/pkg/storage/chunk/util"
+	"github.com/grafana/loki/v2/pkg/storage/stores/shipper/compactor/retention"
+	"github.com/grafana/loki/v2/pkg/storage/stores/shipper/storage"
+	shipper_util "github.com/grafana/loki/v2/pkg/storage/stores/shipper/util"
 )
 
 const (

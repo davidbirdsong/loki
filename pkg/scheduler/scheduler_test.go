@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/grafana/loki/pkg/scheduler/schedulerpb"
+	"github.com/grafana/loki/v2/pkg/scheduler/schedulerpb"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/metadata"

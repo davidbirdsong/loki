@@ -21,9 +21,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/grafana/loki/pkg/tenant"
+	"github.com/grafana/loki/v2/pkg/tenant"
 
-	serverutil "github.com/grafana/loki/pkg/util/server"
+	serverutil "github.com/grafana/loki/v2/pkg/util/server"
 )
 
 const (

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/go-kit/log"
-	"github.com/grafana/loki/clients/pkg/promtail/client/fake"
-	"github.com/grafana/loki/clients/pkg/promtail/positions"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/client/fake"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/positions"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/scrapeconfig"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/assert"

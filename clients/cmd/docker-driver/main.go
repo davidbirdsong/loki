@@ -13,8 +13,8 @@ import (
 	"github.com/prometheus/common/version"
 	"github.com/weaveworks/common/logging"
 
-	"github.com/grafana/loki/pkg/util"
-	_ "github.com/grafana/loki/pkg/util/build"
+	"github.com/grafana/loki/v2/pkg/util"
+	_ "github.com/grafana/loki/v2/pkg/util/build"
 )
 
 const socketAddress = "/run/docker/plugins/loki.sock"

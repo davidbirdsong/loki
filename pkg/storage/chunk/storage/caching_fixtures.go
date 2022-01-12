@@ -10,10 +10,10 @@ import (
 	"github.com/cortexproject/cortex/pkg/util/validation"
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	"github.com/grafana/loki/pkg/storage/chunk/gcp"
-	"github.com/grafana/loki/pkg/storage/chunk/testutils"
+	"github.com/grafana/loki/v2/pkg/storage/chunk"
+	"github.com/grafana/loki/v2/pkg/storage/chunk/cache"
+	"github.com/grafana/loki/v2/pkg/storage/chunk/gcp"
+	"github.com/grafana/loki/v2/pkg/storage/chunk/testutils"
 )
 
 type fixture struct {

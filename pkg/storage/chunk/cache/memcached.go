@@ -17,7 +17,7 @@ import (
 
 	util_log "github.com/cortexproject/cortex/pkg/util/log"
 
-	"github.com/grafana/loki/pkg/util/math"
+	"github.com/grafana/loki/v2/pkg/util/math"
 )
 
 // MemcachedConfig is config to make a Memcached

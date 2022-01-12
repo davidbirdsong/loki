@@ -18,7 +18,7 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"google.golang.org/grpc"
 
-	lokiutil "github.com/grafana/loki/pkg/util"
+	lokiutil "github.com/grafana/loki/v2/pkg/util"
 )
 
 type Config struct {

@@ -21,8 +21,8 @@ import (
 	"github.com/cortexproject/cortex/pkg/util/validation"
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	"github.com/grafana/loki/pkg/storage/chunk/encoding"
+	"github.com/grafana/loki/v2/pkg/storage/chunk/cache"
+	"github.com/grafana/loki/v2/pkg/storage/chunk/encoding"
 )
 
 type configFactory func() StoreConfig

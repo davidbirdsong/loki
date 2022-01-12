@@ -15,10 +15,10 @@ import (
 	"github.com/uber/jaeger-client-go"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logqlmodel"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
-	"github.com/grafana/loki/pkg/util/httpreq"
+	"github.com/grafana/loki/v2/pkg/logproto"
+	"github.com/grafana/loki/v2/pkg/logqlmodel"
+	"github.com/grafana/loki/v2/pkg/logqlmodel/stats"
+	"github.com/grafana/loki/v2/pkg/util/httpreq"
 )
 
 func TestQueryType(t *testing.T) {

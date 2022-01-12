@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/prometheus/config"
 	"gopkg.in/yaml.v2"
 
-	"github.com/grafana/loki/pkg/ruler/storage/cleaner"
-	"github.com/grafana/loki/pkg/ruler/storage/instance"
+	"github.com/grafana/loki/v2/pkg/ruler/storage/cleaner"
+	"github.com/grafana/loki/v2/pkg/ruler/storage/instance"
 )
 
 type Config struct {

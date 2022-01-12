@@ -5,13 +5,13 @@ import (
 
 	util_log "github.com/cortexproject/cortex/pkg/util/log"
 	"github.com/go-kit/log"
-	"github.com/grafana/loki/clients/pkg/logentry/stages"
+	"github.com/grafana/loki/v2/clients/pkg/logentry/stages"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/grafana/loki/clients/pkg/promtail/client"
-	"github.com/grafana/loki/clients/pkg/promtail/config"
-	"github.com/grafana/loki/clients/pkg/promtail/server"
-	"github.com/grafana/loki/clients/pkg/promtail/targets"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/client"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/config"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/server"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/targets"
 )
 
 // Option is a function that can be passed to the New method of Promtail and

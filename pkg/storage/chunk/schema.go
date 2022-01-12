@@ -15,7 +15,7 @@ import (
 
 	util_log "github.com/cortexproject/cortex/pkg/util/log"
 
-	"github.com/grafana/loki/pkg/querier/astmapper"
+	"github.com/grafana/loki/v2/pkg/querier/astmapper"
 )
 
 const (

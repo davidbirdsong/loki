@@ -23,8 +23,8 @@ import (
 	"github.com/prometheus/prometheus/tsdb/wal"
 	prompool "github.com/prometheus/prometheus/util/pool"
 
-	"github.com/grafana/loki/pkg/chunkenc"
-	"github.com/grafana/loki/pkg/util/pool"
+	"github.com/grafana/loki/v2/pkg/chunkenc"
+	"github.com/grafana/loki/v2/pkg/util/pool"
 )
 
 var (

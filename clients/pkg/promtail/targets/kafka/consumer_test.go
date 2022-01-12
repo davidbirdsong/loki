@@ -8,7 +8,7 @@ import (
 
 	"github.com/Shopify/sarama"
 	"github.com/go-kit/log"
-	"github.com/grafana/loki/clients/pkg/promtail/targets/target"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/targets/target"
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 )

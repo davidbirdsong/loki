@@ -32,15 +32,15 @@ import (
 	"github.com/stretchr/testify/require"
 	serverww "github.com/weaveworks/common/server"
 
-	"github.com/grafana/loki/clients/pkg/logentry/stages"
-	"github.com/grafana/loki/clients/pkg/promtail/client"
-	"github.com/grafana/loki/clients/pkg/promtail/config"
-	"github.com/grafana/loki/clients/pkg/promtail/positions"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/clients/pkg/promtail/server"
-	file2 "github.com/grafana/loki/clients/pkg/promtail/targets/file"
+	"github.com/grafana/loki/v2/clients/pkg/logentry/stages"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/client"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/config"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/positions"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/scrapeconfig"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/server"
+	file2 "github.com/grafana/loki/v2/clients/pkg/promtail/targets/file"
 
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/grafana/loki/v2/pkg/logproto"
 )
 
 const httpTestPort = 9080

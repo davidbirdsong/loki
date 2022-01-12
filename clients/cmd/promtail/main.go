@@ -18,13 +18,13 @@ import (
 	"github.com/prometheus/common/version"
 	"github.com/weaveworks/common/logging"
 
-	"github.com/grafana/loki/clients/pkg/logentry/stages"
-	"github.com/grafana/loki/clients/pkg/promtail"
-	"github.com/grafana/loki/clients/pkg/promtail/config"
+	"github.com/grafana/loki/v2/clients/pkg/logentry/stages"
+	"github.com/grafana/loki/v2/clients/pkg/promtail"
+	"github.com/grafana/loki/v2/clients/pkg/promtail/config"
 
-	logutil "github.com/grafana/loki/pkg/util"
-	_ "github.com/grafana/loki/pkg/util/build"
-	"github.com/grafana/loki/pkg/util/cfg"
+	logutil "github.com/grafana/loki/v2/pkg/util"
+	_ "github.com/grafana/loki/v2/pkg/util/build"
+	"github.com/grafana/loki/v2/pkg/util/cfg"
 )
 
 func init() {

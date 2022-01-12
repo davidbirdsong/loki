@@ -20,8 +20,8 @@ import (
 	util_log "github.com/cortexproject/cortex/pkg/util/log"
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/util"
+	"github.com/grafana/loki/v2/pkg/storage/chunk"
+	"github.com/grafana/loki/v2/pkg/storage/chunk/util"
 )
 
 // Config for a StorageClient

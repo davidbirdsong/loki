@@ -23,9 +23,9 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"go.uber.org/atomic"
 
-	"github.com/grafana/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
-	"github.com/grafana/loki/pkg/tenant"
-	lokigrpc "github.com/grafana/loki/pkg/util/httpgrpc"
+	"github.com/grafana/loki/v2/pkg/lokifrontend/frontend/v2/frontendv2pb"
+	"github.com/grafana/loki/v2/pkg/tenant"
+	lokigrpc "github.com/grafana/loki/v2/pkg/util/httpgrpc"
 )
 
 // Config for a Frontend.

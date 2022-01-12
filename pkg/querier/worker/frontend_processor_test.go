@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/grafana/loki/pkg/util/test"
+	"github.com/grafana/loki/v2/pkg/util/test"
 )
 
 const bufConnSize = 1024 * 1024

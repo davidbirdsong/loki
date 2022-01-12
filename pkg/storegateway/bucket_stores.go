@@ -37,7 +37,7 @@ import (
 	"github.com/weaveworks/common/logging"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/grafana/loki/pkg/util/spanlogger"
+	"github.com/grafana/loki/v2/pkg/util/spanlogger"
 )
 
 // BucketStores is a multi-tenant wrapper of Thanos BucketStore.

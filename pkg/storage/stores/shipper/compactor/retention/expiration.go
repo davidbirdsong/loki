@@ -10,7 +10,7 @@ import (
 
 	util_log "github.com/cortexproject/cortex/pkg/util/log"
 
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/grafana/loki/v2/pkg/validation"
 )
 
 type ExpirationChecker interface {
